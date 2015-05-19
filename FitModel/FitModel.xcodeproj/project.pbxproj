@@ -19,6 +19,7 @@
 		840140A81B09F5EC000E1D14 /* btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 840140A61B09F5EC000E1D14 /* btn_back@2x.png */; };
 		840140A91B09F5EC000E1D14 /* btn_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 840140A71B09F5EC000E1D14 /* btn_back.png */; };
 		840140AB1B0AF11B000E1D14 /* shot.png in Resources */ = {isa = PBXBuildFile; fileRef = 840140AA1B0AF11B000E1D14 /* shot.png */; };
+		84DC56F11B0B1051003CCE23 /* tip.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84DC56F01B0B1051003CCE23 /* tip.jpg */; };
 		F0836E9508DA4B01727C0376 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DAF902741C94CF3427557D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		840140A61B09F5EC000E1D14 /* btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_back@2x.png"; sourceTree = "<group>"; };
 		840140A71B09F5EC000E1D14 /* btn_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_back.png; sourceTree = "<group>"; };
 		840140AA1B0AF11B000E1D14 /* shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shot.png; sourceTree = SOURCE_ROOT; };
+		84DC56F01B0B1051003CCE23 /* tip.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tip.jpg; sourceTree = "<group>"; };
 		F722236881151B3EEEAE83BE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 		840140771B09E2DE000E1D14 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84DC56F01B0B1051003CCE23 /* tip.jpg */,
 				840140AA1B0AF11B000E1D14 /* shot.png */,
 				840140A61B09F5EC000E1D14 /* btn_back@2x.png */,
 				840140A71B09F5EC000E1D14 /* btn_back.png */,
@@ -250,6 +253,7 @@
 				840140851B09E2DE000E1D14 /* Images.xcassets in Resources */,
 				840140A91B09F5EC000E1D14 /* btn_back.png in Resources */,
 				840140AB1B0AF11B000E1D14 /* shot.png in Resources */,
+				84DC56F11B0B1051003CCE23 /* tip.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
