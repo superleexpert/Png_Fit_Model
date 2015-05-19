@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "DetailViewController.h"
 
 @interface ViewController ()
+
+- (IBAction)detailAction:(id)sender;
 
 @end
 
@@ -17,6 +20,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)detailAction:(id)sender
+{
 }
 
 - (void)didReceiveMemoryWarning {

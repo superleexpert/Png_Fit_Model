@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>738860D3-F44A-4B40-A4A8-FC190AA8A50D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FitModel</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4EF93913AF106825FDBC458EAE5C6C68DDF42BA0</key>
+		<string>https://github.com/superleexpert/Png_Fit_Model.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FitModel/FitModel.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4EF93913AF106825FDBC458EAE5C6C68DDF42BA0</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/superleexpert/Png_Fit_Model.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4EF93913AF106825FDBC458EAE5C6C68DDF42BA0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4EF93913AF106825FDBC458EAE5C6C68DDF42BA0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Png_Fit_Model</string>
+		</dict>
+	</array>
+</dict>
+</plist>

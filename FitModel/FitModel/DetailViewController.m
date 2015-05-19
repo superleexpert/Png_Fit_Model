@@ -7,6 +7,9 @@
 //
 
 #import "DetailViewController.h"
+#import "BLNavigationBar.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <ReactiveCocoa/RACEXTScope.h>
 
 @interface DetailViewController ()
 
@@ -14,9 +17,23 @@
 
 @implementation DetailViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
+    @weakify(self);
+
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    BLNavigationBar *naviBar = [[BLNavigationBar alloc] initWithFrame:kNavigationBarFrame];
+    naviBar.backgroundColor = [UIColor blueColor];
+    naviBar.titleLbl.text = @"I am a Nav";
+    [[[naviBar.backBtn rac_signalForControlEvents:UIControlEventTouchUpInside] takeUntil:self.view.rac_willDeallocSignal] subscribeNext:^(id x) {
+        @strongify(self);
+        [self dismissViewControllerAnimated:YES completion:^(void){
+            // Code.            
+        }];
+    }];
+    [self.view addSubview:naviBar];
 }
 
 - (void)didReceiveMemoryWarning {

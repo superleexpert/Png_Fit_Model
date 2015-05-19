@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+extern CGRect const kNavigationBarFrame;
+
 @interface BLNavigationBar : UIView
+
+@property (nonatomic, readwrite, weak) UILabel *titleLbl;
+@property (nonatomic, readwrite, weak) UIButton *backBtn;
 
 @end
