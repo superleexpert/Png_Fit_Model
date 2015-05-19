@@ -4,6 +4,8 @@
 
 关于切图，之前一直使用交互区域大小的切图方法；  
 目前可以采用自定义交互区域大小的方法，按图的边缘切图，好处是可以减少图片总量所占大小，图片规则统一化：  
+附：需要标注出点击交互区域的面积大小和图片位置。  
+
 ![](https://raw.githubusercontent.com/superleexpert/Png_Fit_Model/master/FitModel/shot.png)  
 适配上可以使用：   
 
