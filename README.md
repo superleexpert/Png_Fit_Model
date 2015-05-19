@@ -6,8 +6,8 @@
 
 适配上可以使用：
 yourButton.imageEdgeInsets = UIEdgeInsetsMake(10, 10, 0, 0);
-UIEdgeInsetsMake的参数对应上左下右4个方向的相对距离，对应的contentEdgeInsets也可设置文字距离。
-
+UIEdgeInsetsMake的参数对应上左下右4个方向的相对距离，对应的contentEdgeInsets也可设置文字距离。＜/br＞
+＜/br＞
 关于ReactiveCocoa，可以规范化消息传递机制，例如UIButton的Event事件：
     @weakify(self);
     [[[naviBar.backBtn rac_signalForControlEvents:UIControlEventTouchUpInside] takeUntil:self.view.rac_willDeallocSignal] subscribeNext:^(id x) {
@@ -15,5 +15,5 @@ UIEdgeInsetsMake的参数对应上左下右4个方向的相对距离，对应的
         [self dismissViewControllerAnimated:YES completion:^(void){
             // Code.            
         }];
-
+＜/br＞
 updating...
